@@ -3,6 +3,7 @@
 
 def safe_print_integer(value):
     """Prints an integer with "{:d}".format().
+    
     Args:
         If a TypeError or ValueError occurs - False.
         Otherwise - True.
